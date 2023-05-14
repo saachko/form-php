@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>uniMail</title>
+  </head>
+  <body>
+    <form>
+      <!-- Hidden Required Fields -->
+      <input type="hidden" name="project_name" value="Site Name" />
+      <input type="hidden" name="admin_email" value="rle21374@nezid.com" />
+      <input type="hidden" name="form_subject" value="Form Subject" />
+      <!-- END Hidden Required Fields -->
+
+      <input
+        type="text"
+        name="Name"
+        placeholder="Your name..."
+        required
+      /><br />
+      <input
+        type="text"
+        name="E-mail"
+        placeholder="Your E-mail..."
+        required
+      /><br />
+      <input type="text" name="Phone" placeholder="Your phone..." /><br />
+      <button>Send</button>
+    </form>
+
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
