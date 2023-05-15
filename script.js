@@ -1,5 +1,5 @@
 $(document).ready(() => {
-  $('form').on('submit', (event) => {
+  $('form').on('submit', function (event) {
     event.preventDefault();
     const th = $(this);
     $.ajax({
